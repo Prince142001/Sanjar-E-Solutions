@@ -1,0 +1,109 @@
+:root {
+  --primary-color: #4cc2bf;
+  --secondary-color: #faa601;
+  --tertiary-color: #6102d3;
+  --white-color: #ffffff;
+  --shadow-color: #878b95;
+  /* --primary: #0f172a; */
+  /* --bg-color: #f0f0f6; */
+  --bg-color: #f7f7f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  text-decoration: none;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+  margin: 2rem;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  margin: 2rem;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  box-shadow: inset 0 0 0px 1px var(--bg-color);
+  cursor: grabbing;
+  transition: 0.2s linear;
+}
+
+html {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+}
+
+main {
+  --main-mt: 88px;
+  margin-top: var(--main-mt);
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/* .section-two {
+  max-width: 1228px;
+} */
+
+.pt-color {
+  color: var(--primary-color);
+}
+
+.pbg-color {
+  background-color: var(--primary-color);
+}
+
+.st-color {
+  color: var(--secondary-color);
+}
+
+.sbg-color {
+  background-color: var(--secondary-color);
+}
+
+.oswald-ff {
+  font-family: "Oswald", sans-serif;
+}
+
+.bebas-neue-ff {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.word-spacing {
+  word-spacing: 4px;
+}
+
